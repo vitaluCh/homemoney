@@ -1,2 +1,2 @@
 # homemoney README
-![Иллюстрация к проекту](https://yadi.sk/i/7b7PBQL73H5Ayg)
+![Иллюстрация к проекту](https://disk.yandex.ua/client/disk/images/main2.png)
