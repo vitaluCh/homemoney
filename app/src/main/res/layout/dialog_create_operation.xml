@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilOperationName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp" >
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:inputType="textCapSentences"/>
+        </android.support.design.widget.TextInputLayout>
+
+   <!--     <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_storage"
+            android:layout_below="@+id/tilDialogOperationName"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="10dp"
+            android:textSize="16sp"/>-->
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/tilOperationName"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            tools:context=".fragment.StorageListFragment">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imOneStorage"
+                tools:src="@drawable/storage11"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvStorageName"
+                android:layout_toRightOf="@+id/imOneStorage"
+                android:layout_marginLeft="16dp"
+                android:textSize="16sp"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_centerVertical="true"
+                android:text="@string/add_storage_please"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imStorageChoice"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_choice_down_24dp"
+                android:clickable="true"
+               />
+
+        </RelativeLayout>
+
+  <!--      <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spDialogOperationStorage"
+            android:layout_below="@+id/tilDialogOperationName"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"/>-->
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilDialogOperationDate"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:inputType="none"
+                android:focusableInTouchMode="false"
+                android:cursorVisible="false" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/imDialogAmoutCalc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/calculator"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="16dp"
+            android:clickable="true"
+            android:contentDescription="@string/imCalculator" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilDialogOperationMount"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_marginTop="10dp"
+            android:layout_toLeftOf="@+id/imDialogAmoutCalc">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:inputType="numberDecimal"
+                android:gravity="center"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:id="@+id/tvDialogOperationCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_category"
+            android:layout_below="@+id/tilDialogOperationDate"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:textSize="16sp"
+
+            />
+
+        <!--////////////////////////////-->
+        <RelativeLayout
+            android:id="@+id/relativeLayout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvDialogOperationCategory"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="16dp"
+            tools:context=".fragment.StorageListFragment"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvSourceName"
+                android:layout_marginLeft="16dp"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"
+                android:layout_centerVertical="true"
+                tools:text="Домашние животные"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imSourceChoice"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:src="@drawable/ic_choice_down_24dp"
+                android:clickable="true"
+                />
+
+            <Spinner
+                android:id="@+id/spOperationCategory"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:visibility="invisible">
+            </Spinner>
+
+        </RelativeLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/tilDialogOperationDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout2"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="16dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:inputType="textMultiLine|textCapSentences"/>
+
+    </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDialogOperationPhoto"
+            android:layout_below="@+id/tilDialogOperationDescription"
+            android:text="@string/dialog_camera"
+            android:layout_marginLeft="16dp"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_action_name"
+            android:layout_below="@+id/tilDialogOperationDescription"
+            android:layout_alignRight="@+id/tvDialogOperationPhoto"
+            android:clickable="true"
+            android:contentDescription="@string/dialog_camera" />
+
+    </RelativeLayout>
+</ScrollView>

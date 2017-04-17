@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="vitalu.ua.gmail.com.homemoney">
+
+    <application
+        android:name=".database.AppContext"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.OpeationsListActivity"
+            android:label="@string/title_activity_opeations"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="vitalu.ua.gmail.com.homemoney.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.StorageListActivity"
+            android:label="@string/title_activity_storage"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="vitalu.ua.gmail.com.homemoney.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.CurrencyListActivity"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.SourceListActivity"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.OperationActivity"
+            android:label="@string/title_activity_operation"
+            android:parentActivityName=".activity.OpeationsListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="vitalu.ua.gmail.com.homemoney.activity.OpeationsListActivity" />
+        </activity>
+        <activity
+            android:name=".activity.SourceActivity"
+            android:parentActivityName=".activity.SourceListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.DebtListActivity"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.TamplateTabActivity"
+            android:label="@string/title_activity_tamplate_tab"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="vitalu.ua.gmail.com.homemoney.activity.MainActivity" />
+        </activity>
+        <activity
+            android:name=".activity.TemplateActivity"
+            android:parentActivityName=".activity.TamplateTabActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.report.ReportActivity"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.report.ReportTabActivity"
+            android:parentActivityName=".activity.report.ReportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.report.ReportCategoryActivity"
+            android:parentActivityName=".activity.report.ReportActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.ReviewActivity"
+            android:parentActivityName=".activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".activity.ChartReviewActivity"
+            android:parentActivityName=".activity.ReviewActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

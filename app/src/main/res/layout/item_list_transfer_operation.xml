@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".fragment.StorageListFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imOperationStorageFrom"
+        android:src="@drawable/storage11"
+        />
+
+    <TextView
+        android:id="@+id/tvTo"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_toRightOf="@+id/imOperationStorageFrom"
+        android:layout_marginLeft="1dp"
+        android:text="->"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imOperationStorageTo"
+        android:layout_toRightOf="@+id/tvTo"
+        android:src="@drawable/storage10"
+        android:layout_marginLeft="1dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvOperationName"
+        android:layout_toRightOf="@+id/imOperationStorageTo"
+        android:layout_marginLeft="16dp"
+        android:textSize="16sp"
+        tools:text="Перевод"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDateOperation"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imOperationStorageTo"
+        android:layout_below="@+id/tvOperationName"
+        android:layout_marginLeft="16dp"
+        android:textSize="14sp"
+        tools:text="20.02.2016"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvOperationAmountFrom"
+        android:layout_toLeftOf="@+id/tvOperationCurrencyFrom"
+        android:layout_marginRight="10dp"
+        android:textSize="16sp"
+        tools:text="30000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvOperationCurrencyFrom"
+        android:layout_alignParentRight="true"
+        android:textSize="16sp"
+        tools:text="UAH"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvOperationAmountTo"
+        android:layout_toLeftOf="@+id/tvOperationCurrencyFrom"
+        android:layout_below="@+id/tvOperationAmountFrom"
+        android:layout_marginRight="10dp"
+        android:textSize="16sp"
+        tools:text="30000"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvOperationCurrencyTo"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvOperationCurrencyFrom"
+        android:textSize="16sp"
+        tools:text="UAH"/>
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvDateOperation"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/tvOperationAmount"
+        android:textSize="14sp"
+        tools:text="20.02.2016"/>-->
+
+</RelativeLayout>

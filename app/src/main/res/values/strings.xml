@@ -1,0 +1,275 @@
+<resources>
+    <string name="app_name">Home Money</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--Главное окно-->
+    <string name="main_stirage">Кошельки</string>
+    <string name="main_incom">Доходы</string>
+    <string name="main_outcom">Расходы</string>
+    <string name="main_transfer">Переводы</string>
+    <string name="main_debt">Долги</string>
+    <string name="main_manage_categories">Категории</string>
+    <string name="main_review">Анализ цен</string>
+    <string name="main_report">Отчеты</string>
+    <string name="main_task">Планирование</string>
+    <string name="main_pattern">Шаблоны</string>
+    <string name="main_limit">Лимит</string>
+    <string name="main_currency">Валюты</string>
+
+    <!--Строки для Базы Данных-->
+
+    <string name="db_incom">Доход</string>
+    <string name="db_incom_pay">Зарплата</string>
+    <string name="db_incom_gift">Подарок</string>
+    <string name="db_incom_other">Другое</string>
+
+    <!--////////////////////////////////////////////-->
+
+    <string name="db_outcom">Расход</string>
+
+    <string name="db_outcom_car">Авто</string>
+    <string name="db_outcom_car_insurance">Страховка</string>
+    <string name="db_outcom_car_tax">Налоги/пошлины</string>
+    <string name="db_outcom_car_service">Обслуживание</string>
+    <string name="db_outcom_car_buy">Покупка авто</string>
+    <string name="db_outcom_car_repair">Ремонт</string>
+    <string name="db_outcom_car_fuel">Топливо</string>
+
+    <string name="db_outcom_bank">Банк</string>
+    <string name="db_outcom_bank_commission">Комиссия</string>
+    <string name="db_outcom_bank_services">Оплата услуг банка</string>
+    <string name="db_outcom_bank_percent">Проценты</string>
+
+    <string name="db_outcom_home">Дом</string>
+    <string name="db_outcom_home_furniture">Покупка мебели</string>
+    <string name="db_outcom_home_cookware">Покупка посуды</string>
+    <string name="db_outcom_home_renovation">Ремонт</string>
+    <string name="db_outcom_home_electricaldevice">Электроприборы</string>
+
+    <string name="db_outcom_homeanimals">Домашние животные</string>
+    <string name="db_outcom_homeanimals_food">Корм</string>
+
+    <string name="db_outcom_other">Другое</string>
+    <string name="db_outcom_friend">Друзья</string>
+
+    <string name="db_outcom_food">Продукты</string>
+    <string name="db_outcom_food_bread">Хлеб</string>
+    <string name="db_outcom_food_milk">Молоко</string>
+    <string name="db_outcom_food_butter">Масло</string>
+
+    <string name="db_outcom_municipalservices">Коммунальные услуги</string>
+    <string name="db_outcom_municipalservices_water">Вода</string>
+    <string name="db_outcom_municipalservices_garbage">Вывоз мусора</string>
+    <string name="db_outcom_municipalservices_gas">Газ</string>
+    <string name="db_outcom_municipalservices_groundtax">Земельный налог</string>
+    <string name="db_outcom_municipalservices_tv">Кабельное TV</string>
+    <string name="db_outcom_municipalservices_rent">Квартплата</string>
+    <string name="db_outcom_municipalservices_heating">Отопление</string>
+    <string name="db_outcom_municipalservices_insurance">Страховка дома</string>
+    <string name="db_outcom_municipalservices_phone">Телефон</string>
+    <string name="db_outcom_municipalservices_electrican">Электроэнегрия</string>
+    <string name="db_outcom_municipalservices_internet">Интернет</string>
+
+    <string name="db_outcom_beauty_and_health">Красота и Здоровье</string>
+    <string name="db_outcom_beauty_and_health_dantist">Зубной врач</string>
+    <string name="db_outcom_beauty_and_health_cosmetic">Косметолог</string>
+    <string name="db_outcom_beauty_and_health_treatment">Лечение</string>
+    <string name="db_outcom_beauty_and_health_barbershop">Парикмахерская</string>
+    <string name="db_outcom_beauty_and_health_sauna">Сауна</string>
+    <string name="db_outcom_beauty_and_health_lifeinsurance">Страхование жизни</string>
+    <string name="db_outcom_beauty_and_health_healthinsurance">Страхование здоровья</string>
+    <string name="db_outcom_beauty_and_health_massage">Масаж</string>
+
+    <string name="db_outcom_credit">Кредиты</string>
+    <string name="db_outcom_credit_car">Автокредит</string>
+    <string name="db_outcom_credit_house">Кредит на жилье</string>
+
+    <string name="db_outcom_personal">Личное</string>
+    <string name="db_outcom_personal_charity">Благотворительность</string>
+    <string name="db_outcom_personal_gift">Подарки</string>
+
+    <string name="db_outcom_education">Образование</string>
+    <string name="db_outcom_clothes">Одежда</string>
+
+    <string name="db_outcom_relax">Отдых</string>
+    <string name="db_outcom_relax_hotel">Отель</string>
+    <string name="db_outcom_relax_trip">Тур</string>
+    <string name="db_outcom_relax_restaurant">Ресторан</string>//
+    <string name="db_outcom_relax_cafe">Кафе</string>
+
+    <string name="db_outcom_amusement">Развлечения</string>
+    <string name="db_outcom_amusement_cinema">Кино</string>
+    <string name="db_outcom_amusement_club">Клуб</string>
+    <string name="db_outcom_amusement_concert">Концерт</string>
+
+    <string name="db_outcom_famely">Семья</string>
+
+    <string name="db_outcom_sport">Спорт</string>
+    <string name="db_outcom_sport_pool">Басейн</string>
+    <string name="db_outcom_sport_gym">Тренажорный зал</string>
+
+    <string name="db_outcom_transport">Транспорт</string>
+    <string name="db_outcom_transport_rent">Аренда транспорта</string>
+    <string name="db_outcom_transport_public_transport">Общественный транспорт</string>
+    <string name="db_outcom_transport_train">Поезд</string>
+    <string name="db_outcom_transport_plane">Самолет</string>
+    <string name="db_outcom_transport_taxi">Такси</string>
+
+    <string name="db_outcom_amenities">Услуги</string>
+    <string name="db_outcom_amenities_mobile_communication">Мобильная связь</string>
+
+    <!--//////////////////////////////////-->
+
+    <string name="db_currency_uah">Гривна</string>
+    <string name="db_currency_usd">Доллар</string>
+    <string name="db_currency_eur">Евро</string>
+    <string name="db_currency_rub">Рубль</string>
+
+    <string name="db_remittance">Перевод</string>
+    <string name="db_toborrow">Взять в долг</string>
+    <string name="db_tolend">Дать в долг</string>
+
+    <!--Конец Строк для Базы Данных-->
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="title_activity_opeations">OpeationsActivity</string>
+    <string name="name_operation">Имя</string>
+    <string name="dialog_camera">Фото:</string>
+    <string name="dialog_category">Категория:</string>
+    <string name="dialog_storage">Кошелек</string>
+    <string name="imCalculator">Калькулятор</string>
+    <string name="dialog_date">Дата</string>
+    <string name="dialog_description">Описание</string>
+    <string name="dialog_ok">Сохранить</string>
+    <string name="dialog_cancel">Отмена</string>
+    <string name="dialog_error_empty_title">Пожалуйста заполните это поле</string>
+    <string name="dialog_mount">Сумма</string>
+
+    <!--Заголовки диалоговых окон-->
+    <string name="dialog_title_add_incom">Добавить Доход</string>
+    <string name="dialog_title_edit_incom">Редактировать Доход</string>
+    <string name="dialog_title_add_outcom">Добавить Расход</string>
+    <string name="dialog_title_edit_outcom">Редактировать Расход</string>
+    <string name="dialog_title_add_transfer">Добавить Перевод</string>
+    <string name="dialog_title_edit_transfer">Редактировать Перевод</string>
+    <string name="dialog_name_operation">Название операции</string>
+
+    <string name="dialog_storage_title">Создание Кошелька</string>
+    <string name="dialog_storage_title_update">Редактировать Кошелек</string>
+    <string name="dialog_storage_name">Название</string>
+    <string name="dialog_storage_amount">Баланс</string>
+    <string name="dialog_storage_currency">Валюта:</string>
+    <string name="dialog_storage_image">Иконка:</string>
+
+    <string name="dialog_currency_full_name">Полное название Валюты</string>
+    <string name="dialog_currency_short_name">Краткое название Валюты</string>
+
+    <!--Заголовки tab-->
+    <string name="tab_day">День</string>
+    <string name="tab_week">Неделя</string>
+    <string name="tab_month">Месяц</string>
+    <string name="tab_year">Год</string>
+    <string name="tab_all">Все</string>
+
+    <string name="title_activity_storage">StorageActivity</string>
+
+    <!---->
+    <string name="empty">Нет данных</string>
+    <string name="title_list_storage">Кошельки</string>
+    <string name="title_list_currencye">Валюты</string>
+    <string name="title_list_category">Управление Категориями</string>
+    <string name="title_list_category_income">Категории Доходов</string>
+    <string name="title_list_category_outcome">Категории Расходов</string>
+    <string name="add_storage">Создать Кошелек</string>
+    <string name="add_currency">Создать Валюту</string>
+    <string name="title_choice_storage">Выбор Кошелька</string>
+    <string name="title_choice_currency">Выбор Валюты</string>
+    <string name="title_choice_source">Выбор Категории</string>
+    <string name="add_source">Создать категорию</string>
+    <string name="division_zero">Делить на ноль нельзя</string>
+
+    <string name="itemMenuDelete">Удалить</string>
+    <string name="itemMenuUpdate">Редактировать</string>
+    <string name="dialog_title_currency">Создание Валюты</string>
+    <string name="dialog_title_update_currency">Редактировать Валюты</string>
+    <string name="incom_category">Категории Доходов</string>
+    <string name="outcome_category">Категории Расходов</string>
+    <string name="parent_category">Родительская категория:</string>
+    <string name="dialog_category_name">Название категории</string>
+    <string name="title_choice_parent">Родительская категория</string>
+    <string name="create_category">Создание категории</string>
+    <string name="update_category">Редактировать категорию</string>
+    <string name="not_category">Без категории</string>
+    <string name="add_storage_please">Создайте кошелек</string>
+
+    <string name="tv_storage">Кошелек:</string>
+    <string name="tv_name_operation">Название:</string>
+    <string name="tvAmount">Сумма:</string>
+    <string name="tvDate">Дата:</string>
+    <string name="tvCategory">Категория:</string>
+    <string name="tvDescription">Описание:</string>
+    <string name="tvFoto">Фото:</string>
+    <string name="title_activity_operation">OperationActivity</string>
+    <string name="tv_amount_now">Текущая сумма:</string>
+    <string name="dialog_title_update_incom">Редактировать Доход</string>
+    <string name="dialog_title_update_outcom">Редактировать Расход</string>
+    <string name="operation_delete">Запись удалена</string>
+    <string name="operation_update">Запись обновлена</string>
+    <string name="add_operation">Запись сохранена</string>
+    <string name="dialog_from">С Кошелька:</string>
+    <string name="dialog_to">На Кошелек:</string>
+    <string name="chose_storage_please">Выберите кошелек</string>
+    <string name="dialog_currency">Курс:</string>
+    <string name="title_operation">Операция</string>
+    <string name="operation_transfer">Перевод</string>
+    <string name="till_cource">Курс валют</string>
+    <string name="dialog_result">Результат:</string>
+    <string name="dialog_error_empty">Установите</string>
+    <string name="dialog_error_title">Заполните это поле</string>
+    <string name="db_transfer">Переводы</string>
+    <string name="amout_transfer">Сумма перевода:</string>
+    <string name="choise_storage">Выбор изображения</string>
+    <string name="you_hould_in">Вам должны</string>
+    <string name="you_hould_out">Вы должны</string>
+    <string name="title_list_debt">Управление долгами</string>
+    <string name="dialog_title_add_debt">Добавить Долг</string>
+    <string name="title_name">Имя</string>
+    <string name="dialog_title_update_debt">Редактировать Долг</string>
+    <string name="title_activity_tamplate_tab">Шаблоны</string>
+    <string name="add_template">Создать шаблон</string>
+    <string name="itemMenuUse">Применить</string>
+    <string name="report_in_out">Статистика Доход/Расход</string>
+    <string name="db_incom_pie">Доход/Круг</string>
+    <string name="db_outcom_pie">Расход/Круг</string>
+    <string name="db_outcom_line">Расход/Столбик</string>
+    <string name="db_incom_line">Доход/Столбик</string>
+    <string name="info_line">Подробно/Столбик</string>
+    <string name="month_pn">ПН</string>
+    <string name="month_vt">ВТ</string>
+    <string name="month_sr">СР</string>
+    <string name="month_ch">ЧТ</string>
+    <string name="month_pt">ПТ</string>
+    <string name="month_sb">СБ</string>
+    <string name="month_vs">ВС</string>
+    <string name="report_category">Отчет по категориям</string>
+    <string name="category">Категории</string>
+    <string name="report_income_category">Доходы по категориям</string>
+    <string name="report_outcome_category">Расходы по категориям</string>
+    <string name="report_in_out_period">Доход/Расход</string>
+    <string name="cencel_delete">Отмена</string>
+    <string name="deleted">Удалено</string>
+    <string name="template_incom">Шаблон Дохода</string>
+    <string name="template_outcom">Шаблон Расхода</string>
+    <string name="template_transfer">Шаблон Перевода</string>
+    <string name="create_category_review">Создание категории наблюдения</string>
+    <string name="amount">Стоимость</string>
+
+
+</resources>
